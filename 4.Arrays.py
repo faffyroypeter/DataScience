@@ -29,10 +29,20 @@ print (matrix1 + 1)
 
 # Element wise multiplication
 print (matrix1 * 10)
-matrix2 = np.array([[1,2,3],[3,4,5]])
+matrix2 = np.array([
+        [1,2,3],
+        [3,4,5]
+        ])
 print (matrix1 * matrix2)
 
 # Matrix Multiplication
 matrix1.dot(matrix2)
 
-matrix1.reshape((2,4))
+# Reshape the array
+matrix2.reshape((2,3))
+
+# statistics from matrix
+
+matrix2.max(axis=0)
+
+matrix2.min(axis=0)
