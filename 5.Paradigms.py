@@ -46,4 +46,9 @@ df['c1'].map(lambda a:a+10)
 #list doesnot support map 
 list1 = [10,20,30]
 
-type(map(dummy, list1))     
+type(map(dummy, list1))   
+
+#Set
+set1 = {10, 20, 30} 
+print(set1)
+set1.add(40)
